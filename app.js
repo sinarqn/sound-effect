@@ -54,8 +54,10 @@ function startEffect() {
   elem.style.width = "0.1rem";
   elem.style.height = `${height}rem`;
   elem.style.backgroundColor = color;
-  elem.style.boxShadow = `0px 0px 100px ${color}`
-  startBtn.style.background = `linear-gradient(to right, ${color}, ${colors[colorIndex + 1]})`
-  startBtn.style.boxShadow = `0px 0px 40px ${color}`
+  elem.style.boxShadow = `0px 0px 100px ${color}`;
+  startBtn.style.background = `linear-gradient(to right, ${color}, ${
+    colors[colorIndex + 1]
+  })`;
+  startBtn.style.boxShadow = `0px 0px 40px ${color}`;
   container.appendChild(elem);
 }
